@@ -8,10 +8,10 @@ import org.junit.Before;
 import java.util.*;
 
 public abstract class AbstractCommandTest {
-    public static final String host = "localhost";
+    public static final String host = "127.0.0.1";
     public static final int    port = 6379;
 
-    public static final String passwd = "";
+    public static final String passwd = "passwd";
 
     protected RedisClient client = new RedisClient(host, port);
     protected RedisConnection<String, String> redis;
