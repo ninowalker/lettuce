@@ -6,7 +6,7 @@ import com.lambdaworks.redis.RedisAsyncConnection;
 import com.lambdaworks.redis.codec.RedisCodec;
 import com.lambdaworks.redis.protocol.Command;
 import com.lambdaworks.redis.protocol.CommandArgs;
-import org.jboss.netty.channel.*;
+import io.netty.channel.*;
 
 import java.lang.reflect.Array;
 import java.util.*;

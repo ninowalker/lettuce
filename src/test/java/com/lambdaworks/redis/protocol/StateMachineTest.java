@@ -6,8 +6,8 @@ import com.lambdaworks.redis.RedisException;
 import com.lambdaworks.redis.codec.RedisCodec;
 import com.lambdaworks.redis.codec.Utf8StringCodec;
 import com.lambdaworks.redis.output.*;
-import org.jboss.netty.buffer.ChannelBuffer;
-import org.jboss.netty.buffer.ChannelBuffers;
+import io.netty.buffer.ChannelBuffer;
+import io.netty.buffer.ChannelBuffers;
 import org.junit.Before;
 import org.junit.Test;
 

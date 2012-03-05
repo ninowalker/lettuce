@@ -3,7 +3,7 @@
 package com.lambdaworks.redis.protocol;
 
 import com.lambdaworks.redis.RedisCommandInterruptedException;
-import org.jboss.netty.buffer.ChannelBuffer;
+import io.netty.buffer.ChannelBuffer;
 
 import java.util.concurrent.*;
 

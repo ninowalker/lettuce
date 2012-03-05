@@ -6,7 +6,7 @@ import com.lambdaworks.codec.Base16;
 import com.lambdaworks.redis.codec.RedisCodec;
 import com.lambdaworks.redis.output.*;
 import com.lambdaworks.redis.protocol.*;
-import org.jboss.netty.channel.*;
+import io.netty.channel.*;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

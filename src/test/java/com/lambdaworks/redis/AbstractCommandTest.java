@@ -11,7 +11,7 @@ public abstract class AbstractCommandTest {
     public static final String host = "localhost";
     public static final int    port = 6379;
 
-    public static final String passwd = "passwd";
+    public static final String passwd = "";
 
     protected RedisClient client = new RedisClient(host, port);
     protected RedisConnection<String, String> redis;

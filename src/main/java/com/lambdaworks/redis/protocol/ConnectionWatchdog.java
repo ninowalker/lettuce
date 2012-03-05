@@ -3,10 +3,10 @@
 package com.lambdaworks.redis.protocol;
 
 import com.lambdaworks.redis.RedisAsyncConnection;
-import org.jboss.netty.bootstrap.ClientBootstrap;
-import org.jboss.netty.channel.*;
-import org.jboss.netty.channel.group.ChannelGroup;
-import org.jboss.netty.util.*;
+import io.netty.bootstrap.ClientBootstrap;
+import io.netty.channel.*;
+import io.netty.channel.group.ChannelGroup;
+import io.netty.util.*;
 
 import java.net.SocketAddress;
 import java.util.concurrent.TimeUnit;

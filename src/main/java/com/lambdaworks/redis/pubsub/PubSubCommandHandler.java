@@ -4,8 +4,8 @@ package com.lambdaworks.redis.pubsub;
 
 import com.lambdaworks.redis.codec.RedisCodec;
 import com.lambdaworks.redis.protocol.*;
-import org.jboss.netty.buffer.ChannelBuffer;
-import org.jboss.netty.channel.*;
+import io.netty.buffer.ChannelBuffer;
+import io.netty.channel.*;
 
 import java.util.concurrent.BlockingQueue;
 
