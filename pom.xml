@@ -5,7 +5,7 @@
 
   <groupId>com.lambdaworks</groupId>
   <artifactId>lettuce</artifactId>
-  <version>2.0.0</version>
+  <version>3.0.0</version>
 
   <packaging>jar</packaging>
 
@@ -121,9 +121,5 @@
   </distributionManagement>
 
   <repositories>
-    <repository>
-      <id>repository.jboss.org</id>
-      <url>http://repository.jboss.org/nexus/content/groups/public/</url>
-    </repository>
   </repositories>
 </project>
