@@ -30,9 +30,10 @@
 
   <dependencies>
    <dependency>
-     <groupId>io.netty</groupId>
+     <groupId>local.libexec</groupId>
      <artifactId>netty</artifactId>
-     <version>4.0.0.Alpha1-SNAPSHOT</version>
+     <version>4.0.0.LFFORK1-SNAPSHOT</version>
+     <type>jar</type>
    </dependency>
 
    <dependency>
@@ -121,5 +122,10 @@
   </distributionManagement>
 
   <repositories>
+    <repository>
+      <id>my-local-repo</id>
+      <url>file://${basedir}/../../../libexec</url>
+    </repository>
   </repositories>
+
 </project>
